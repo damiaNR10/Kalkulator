@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="64dp"
+    android:id="@+id/rlKontener">
+
+
+
+    <TextView
+        android:id="@+id/tvTekst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Wynik" />
+
+
+    <EditText
+        android:id="@+id/etTekst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etTekst1"
+        android:layout_alignStart="@+id/etTekst1"
+        android:layout_below="@+id/etTekst1"
+        android:layout_marginTop="48dp"
+        android:inputType="number" />
+
+
+    <EditText
+        android:id="@+id/etTekst1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:inputType="number" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dodaj"
+        android:id="@+id/dodaj"
+        android:layout_below="@+id/tvTekst"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/odejmij"
+        android:id="@+id/odejmij"
+        android:layout_below="@+id/dodaj"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pomnoz"
+        android:id="@+id/pomnoz"
+        android:layout_below="@+id/odejmij"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/podziel"
+        android:id="@+id/podziel"
+        android:layout_below="@+id/pomnoz"
+        android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>

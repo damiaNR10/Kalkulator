@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Kalkulator</string>
+    <string name="dodaj">Dodaj</string>
+    <string name="odejmij">Odejmij</string>
+    <string name="pomnoz">Pomnoz</string>
+    <string name="podziel">Podziel</string>
+    <string-array name="planety">
+        <item>Merkury</item>
+        <item>Wenus</item>
+        <item>Ziemia</item>
+        <item>Mars</item>
+        <item>Jowisz</item>
+        <item>Saturn</item>
+        <item>Uran</item>
+        <item>Neptun</item>
+    </string-array>
+
+</resources>
